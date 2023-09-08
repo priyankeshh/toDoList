@@ -43,4 +43,4 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 ## Author
 
 - Priyankesh
-- GitHub: [GitHub Profile](https://github.com/priyankeshh)
+- GitHub: [Priyankesh](https://github.com/priyankeshh)
