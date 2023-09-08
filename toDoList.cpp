@@ -10,6 +10,18 @@ struct Task
     bool completed;
 };
 
+bool taskCompleted(const vector<Task> &tasks)
+{
+    for (const Task &task : tasks)
+    {
+        if (!task.completed)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
 void displayMenu()
 {
     cout << "\n===== To-Do List Application =====" << endl;
@@ -93,6 +105,12 @@ int main()
                 }
                 cout << tasks[i].description << endl;
             }
+
+            if (taskCompleted(tasks))
+            {
+                cout << "All your tasks are completed!" << endl;
+            }
+
             cout << "=====================" << endl;
             break;
         case 5:
