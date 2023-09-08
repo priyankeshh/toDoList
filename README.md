@@ -3,7 +3,7 @@ This project features a simple yet functional To-Do List application written in 
 
 # To-Do List Application
 
-![GitHub](https://img.shields.io/github/license/priyankeshh/toDoList)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
